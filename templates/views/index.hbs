@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   {{>navbar}}
+
+    {{!-- hero section starts --}}
+   <div class="container-fluid mt-2">
+       <div class="row">
+           <div class="col-md-10  col-12 mx-auto" >
+               <div class="row">
+                   <div class="col-md-6 col-12 grow-text order-md-0 order-1 mt-5 ">
+                        <h1>We will assist you in</h1>
+                        <h1>Expanding your skills</h1>
+                        <p>We are the team of <span class="bold-style">professional engineers </span></p>
+                        <button class="btn-style btn-primary">Read more</button>
+                   </div>
+                   {{!-- right side --}}
+                  <div class="col-md-6 col-12 grow-text order-md-1 order-0">
+                       <figure>
+                           <img src="images/11.jpg" alt="">
+                       </figure>
+                   </div> 
+               </div>
+            
+           </div>
+       </div>
+   </div>
+    {{!-- hero section ends --}}
+
+    {{!-- about us starts --}}
+    {{>about}}
+    {{!-- about us ends --}}
+
+
+    {{!-- our services starts --}}
+    {{>service}}
+    {{!-- our services ends --}}
+
+    {{!-- maps start --}}
+        {{>maps}}
+    {{!-- maps ends --}}
+
+    {{!-- contact start --}}
+        {{>contact}}
+    {{!-- contact ends --}}
+
+        {{>footer}}
+
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

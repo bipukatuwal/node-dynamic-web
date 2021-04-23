@@ -1,0 +1,159 @@
+@import url("https:/fonts.googleapis.com/css/css2?family=Poiret+One&display=swap");
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* li, p, a{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5 rem;
+} */
+
+.row{
+    margin: 0;
+}
+
+.navbar-style{
+    background-color:antiquewhite;
+    box-shadow: 2px 4px 13px 1px;
+}
+
+.navbar-light .navbar-brand{
+    float: left;
+    display: initial;
+    font-weight: 600px;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: rgb(226, 108, 39);
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+.grow-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grow-text h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.26);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.grow-text p span{
+    font-weight: bold;
+    color: rgb(138, 23, 23);
+}
+.text-center{
+    background: whitesmoke;
+}
+.btn-style{
+    padding: 12px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    background: #ec615b;
+}
+
+img{
+    margin-top: 15px;
+    height: 325px;
+    width: 375px;
+}
+
+.card{
+   margin: 30px;
+}
+
+.card:hover{
+    box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474, 0%, #f55b2a 50%);
+    border-radius: 8px;
+   /*  transform: scaleY(1.5); */
+   transition: width 2s, height 4s;
+}
+
+.contact-section{
+    height: 550px;
+    background-color: #fcf8f8;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.form-contact{
+   display: flex;
+   flex-direction: column;
+}
+.form-contact input{
+   padding: 11px 134px;
+   margin: 10px 10px;
+   width: 500px;
+   border: 2px solid black;
+   border-radius: 6px;
+   color: #21201f
+}
+
+.form-contact input::placeholder { 
+   color: gray;
+   opacity: 1; 
+   font-size: 15px;
+ }
+
+.footer{
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px){
+    #logo{
+        font-size: 2.5rem;
+    }
+
+.grow-text h1{
+    font-size: 3 rem;
+}
+
+figure{
+    margin: 5rem 0l;
+}
+
+figure img{
+    min-width: 100%;
+}
+
+.grow-text p,
+.our-services p,
+label{
+    font-size: 1.5 rem;
+}
+
+.about-style, .sub-heading,
+.service-style .sub-heading,
+.contact-style .sub-heading {
+    font-size: 2 rem;
+}
+
+}
